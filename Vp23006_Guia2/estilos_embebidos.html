@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Estilos Embebidos</title>
+    <style>
+       
+        h2 {
+            color: white; 
+        }
+        p:first-of-type {
+            font-weight: bold; 
+        }
+        p:nth-of-type(2) {
+            text-align: justify; 
+        }
+        p:nth-of-type(3) {
+            font-size: 12px; 
+        }
+        div.contenido{
+        margin: 0 auto; /* centrando la caja */
+        width: 80%;
+        }
+        .cuento{
+        color: navy;
+        text-align: justify;
+        }
+        .parrafo1{
+        font-family: "Courier New", monospace;
+        }
+
+        .parrafo2{
+        font-family: Verdana, Genova, sans-serif;
+        }
+
+        .parrafo3{
+        font-family: Georgia, "Times New Roman", Times, serif;
+        }
+    </style>
+</head>
+<body style="background-color: lightblue">
+    <div style="font-size: 20px">
+        <h2 style="text-decoration: underline;">Estilos embebidos en las etiquetas HTML</h2>
+        
+        <p style="color: navy;">Usar estilos CSS embebidos en las etiquetas HTML es el peor y el menos utilizado de los métodos para agregar reglas de estilo. No es nada recomendable por la dificultad que implica realizar un cambio posteriormente.</p>
+        
+        <p style="text-transform: uppercase;">Esta forma de incluir CSS directamente en los elementos HTML solamente se utiliza en determinadas situaciones en las que se debe incluir un estilo muy específico para un solo elemento concreto.</p>
+        
+        <p>Para insertar un estilo CSS en un elemento se utiliza la propiedad <span style="font-style: italic;">style</span> de HTML, que en ningún momento se debe confundir con la etiqueta <span style="font-style: italic;">&lt;style&gt;</span> que se introduce en la cabecera del documento.</p>
+    </div>
+</body>
+</html>
