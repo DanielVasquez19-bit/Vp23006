@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!-- base  de el html y link para los estilos de css-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas de Pasta Italiana</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+   <!-- barra de navegacion superior de la pagina--> 
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#recetas">Recetas</a></li>
+                <li><a href="#consejos">Consejos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   <!-- inicio y bienvenida a la pagina-->
+    <section id="inicio">
+        <h1>Bienvenidos a Recetas de Pasta Italiana</h1>
+        <p>Descubre las recetas de pasta más auténticas y deliciosas de la cocina italiana. Desde la clásica carbonara hasta lasagna al horno, aquí encontrarás el plato perfecto para cada ocasión.</p>
+    </section>
+<!-- algunas recetas luego se agregaran mas asi como variantes -->
+    <section id="recetas">
+        <h2>Recetas Destacadas</h2>
+        <div class="recetas-grid">
+            <article>
+                <img src="carbonara.jpg" alt="Spaghetti alla Carbonara">
+                <h3>Spaghetti alla Carbonara</h3>
+                <p>Una receta clásica y deliciosa con huevo, queso y panceta.</p>
+            </article>
+            <article>
+                <img src="lasagna.jpg" alt="Lasagna al Horno">
+                <h3>Lasagna al Horno</h3>
+                <p>Capas de pasta, carne y queso gratinado al horno.</p>
+            </article>
+           
+        </div>
+    </section>
+
+ <!-- informacion de contacto de la pagina-->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna pregunta o quieres compartir tu receta? ¡Contáctanos!</p>
+        <form>
+            <input type="text" placeholder="Tu nombre" required>
+            <input type="email" placeholder="Tu email" required>
+            <textarea placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
