@@ -91,3 +91,48 @@ button {
 button:hover {
     background-color: #555;
 }
+/*  seccion Categorias */
+#categorias {
+    padding: 32px 16px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+/* cuadricula para los bloques de categorias */
+.categorias-contenedorgrande {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));/*esto es para que se reparta a  medidad las columnas*/
+    gap: 32px;
+    text-align: center;
+}
+/* estilo para las etiquetas de categoria */
+.categoria {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+/* estilo de los iconos dentro de las categorias */
+.categorias-contenedorgrande .categoria i {
+    font-size: 32px;
+    color: #ff6347;
+    margin-bottom: 8px;
+}
+/*estilo para el h3 de la categoria*/
+.categoria h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+/*estilo para las listas de las categorias*/
+.categoria ul {
+    list-style: none;
+}
+/*estilo para los items de las listas de categoria*/
+.categoria ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+/*esto es para darle como luz al pasar el clik en las listas de cagtegoria*/
+.categoria ul li a:hover {
+    color: #ff6600;
+}
